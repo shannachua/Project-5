@@ -1,0 +1,119 @@
+.container {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+body {
+    font-family: 'Amaranth', Georgia, 'Times New Roman', Times, serif;
+    background-color: #F3EDE4; 
+    color: #6D5531; 
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #497B67; 
+    background-image: url(wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
+    width: 100%; 
+    color: white;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+section {
+    background-color: #D3C9B6; /* Light beige */
+    border: 1px solid #8F2A29; /* Muted red */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between; /* Space between text and video */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between text and video */
+    max-width: 100%; /* Ensure the content takes up the full width */
+    width: 100%; /* Allow it to scale to parent */
+    padding: 0; /* Remove unnecessary padding */
+    margin: 0 auto; /* Center align */
+}
+
+.text {
+    flex: 1; /* Allow text to take equal space */
+    max-width: 50%; /* Ensure it doesn’t exceed half the container */
+}
+
+.text h2, .text h3, .text p {
+    margin-bottom: 15px;
+}
+
+.video {
+    flex: 1; /* Allow video to take equal space */
+    max-width: 50%; /* Ensure it doesn’t exceed half the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 100%; /* Make the iframe fill the container */
+    max-width: 700px; /* Set a larger maximum width for the video */
+    height: 300px; /* Set a fixed height for better visibility */
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        gap: 10px; /* Reduce gap for smaller screens */
+    }
+
+    .text, .video {
+        max-width: 100%; /* Full width */
+    }
+}
+
+h1 {
+    font-size: 6rem;
+    color: #F3EDE4; /* Cream to match background */
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #497B67; /* Muted teal */
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #6D5531; /* Warm brown */
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Spectral;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #8F2A29; 
+}
