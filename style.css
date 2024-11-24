@@ -32,8 +32,8 @@ body {
 }
 
 section {
-    background-color: #D3C9B6; /* Light beige */
-    border: 1px solid #8F2A29; /* Muted red */
+    background-color: #D3C9B6; 
+    border: 1px solid #8F2A29; 
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
@@ -44,18 +44,18 @@ section {
 
 .content {
     display: flex;
-    justify-content: space-between; /* Space between text and video */
-    align-items: center; /* Align items vertically */
-    gap: 20px; /* Space between text and video */
-    max-width: 100%; /* Ensure the content takes up the full width */
-    width: 100%; /* Allow it to scale to parent */
-    padding: 0; /* Remove unnecessary padding */
-    margin: 0 auto; /* Center align */
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px; 
+    max-width: 100%; 
+    width: 100%; 
+    padding: 0; 
+    margin: 0 auto; 
 }
 
 .text {
-    flex: 1; /* Allow text to take equal space */
-    max-width: 50%; /* Ensure it doesn’t exceed half the container */
+    flex: 1; 
+    max-width: 50%; 
 }
 
 .text h2, .text h3, .text p {
@@ -63,47 +63,47 @@ section {
 }
 
 .video {
-    flex: 1; /* Allow video to take equal space */
-    max-width: 50%; /* Ensure it doesn’t exceed half the container */
+    flex: 1; 
+    max-width: 50%; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 iframe {
-    width: 100%; /* Make the iframe fill the container */
-    max-width: 700px; /* Set a larger maximum width for the video */
-    height: 300px; /* Set a fixed height for better visibility */
+    width: 100%; 
+    max-width: 700px; 
+    height: 300px; 
     border-radius: 8px;
 }
 
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
-        gap: 10px; /* Reduce gap for smaller screens */
+        gap: 10px; 
     }
 
     .text, .video {
-        max-width: 100%; /* Full width */
+        max-width: 100%; 
     }
 }
 
 h1 {
     font-size: 6rem;
-    color: #F3EDE4; /* Cream to match background */
+    color: white;
     margin-bottom: 10px;
 }
 
 
 h2 {
     font-size: 2rem;
-    color: #497B67; /* Muted teal */
+    color: #497B67; 
     margin-bottom: 10px;
 }
 
 h3 {
     font-size: 1.5rem;
-    color: #6D5531; /* Warm brown */
+    color: #6D5531; 
     margin-bottom: 20px;
 }
 
